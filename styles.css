@@ -1,0 +1,100 @@
+html {
+    background-color: #f3e5d8;
+    font-family: outfit, Young Serif;
+    color: #7b7673;
+
+}
+body {
+    background-color: white;
+    margin: 110px 400px 0 400px;
+    padding: 40px;
+    border-radius: 15px;
+}
+li{
+    padding-left: 16px;
+}
+li::marker {
+    font-size: 0.75rem;
+}
+
+.header {
+    font-family: Young Serif, outfit;
+    color: #7f5041;
+    font-weight: 100;
+}
+.grey-text {
+    color: #6c6260;
+}
+
+#image-omelette {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#page-title {
+    font-size: 39px;
+    margin-bottom: 0;
+    color: black;
+}
+
+#recipe-description {
+    margin-bottom: 32px;
+}
+
+#preparation-time {
+    background-color: #fff4fc;
+    padding: 10px 24px;
+    margin: 0 0 40px 0;
+    border-radius: 15px;
+    line-height: 35px;
+}
+#preparation-time-header {
+    margin: 0 0 0 16px;
+    color: #7f4961;
+}
+#preparation-list {
+    margin: 0;
+}
+#preparation-list li::marker {
+    color: #7f4961;
+}
+
+#ingredients-list {
+    margin-bottom: 50px;
+}
+#ingredients-list li {
+    margin-bottom: 16px;
+}
+
+#instructions-header {
+    margin-top: 50px;
+}
+#instructions-list {
+    margin-bottom: 50px;
+}
+#instructions-list li::marker {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #7f5041;
+}
+#instructions-list li{
+    margin-bottom: 16px;
+}
+
+#nutrtion-header{
+    margin-top: 50px;
+}
+#nutrition-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 32px;
+}
+#nutritional-facts {
+    color: #7f5041;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-top: 36px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
